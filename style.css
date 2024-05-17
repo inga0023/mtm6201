@@ -1,3 +1,27 @@
 body{
     background-color: aqua;
 }
+.flex-container{
+    display: flex;
+    background-color: antiquewhite;
+
+    padding: 10px;
+    flex-direction:row;
+    height:300px
+}
+
+    .flex-item{
+        background:white;
+        padding:10px;
+        height:20px;
+        align-content: flex-start;
+        flex-basis:100px;
+    }
+    .flex-item:first-child{
+        /* flex-grow: 2;
+        flex-shrink:2; */
+        order:2;
+    }
+
+    /* flex-wrap: wrap; */
+
